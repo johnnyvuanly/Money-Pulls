@@ -1,13 +1,15 @@
 <template>
   <h1>Money Pulls</h1>
+  <yugioh-table />
 </template>
 
 <script>
+import YugiohTable from './components/YugiohTable.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    YugiohTable
   }
 }
 </script>
